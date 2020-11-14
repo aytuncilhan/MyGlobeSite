@@ -1,3 +1,2 @@
-# MyGlobeSite
-My personal website.
-An intercative globe will be added.
+# GlobeProject
+ Labels on interactive globe.
