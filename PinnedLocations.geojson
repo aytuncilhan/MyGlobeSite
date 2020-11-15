@@ -3,7 +3,19 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "name": "l'OTAN",
+        "type": "Professional",
+        "location": "Brussels, Belgium",
+        "facts": "Started as an intern and continued as a Temp",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Everest_kalapatthar.jpg",
+        "imageCaption": "Aytunc Ilhan, Bxl",
+        "imageCopyright": "[AddCopyright info here]",
+        "imageCopyrightUrl": "[CC license address]",
+        "source": "PersonalSource",
+        "sourceUrl": "[sourceURL]",
+        "sourceCopyright": "[ADD Copyright Source here]",
+        "sourceCopyrightUrl": "[Copyright Source URL]"},
       "geometry": {
         "type": "Point",
         "coordinates": [
