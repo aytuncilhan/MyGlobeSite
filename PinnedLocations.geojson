@@ -4,26 +4,42 @@
     	"type": "Feature",
     	"geometry": {
     	    "type": "Point",
-    	    "coordinates": [2,50]
+    	    "coordinates": [33,40]
     	},
     	"properties": {
     	    "ObjectID": 1,
-    	    "Description": "Starting BSc degree in Bilkent University",
+    	    "Caption": "Starting BSc degree in Bilkent University",
             "City": "Ankara",
-    	    "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+            "Purpose": "pro"
+    	    "ImageURL": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
     	}
     },
     {
     	"type": "Feature",
     	"geometry": {
     	    "type": "Point",
-    	    "coordinates": [33,40]
+    	    "coordinates": [2,50]
     	},
     	"properties": {
      	   "ObjectID": 2,
-    	   "Description": "Starting my Bachelor's studies in Bilkent University",
+    	   "Caption": "Starting my Bachelor's studies in Bilkent University",
            "City": "Brussels",
-    	   "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+           "Purpose": "pro"
+    	   "ImageURL": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/WithSuit.jpeg"
+    	}
+    },
+    {
+    	"type": "Feature",
+    	"geometry": {
+    	    "type": "Point",
+    	    "coordinates": [40,3]
+    	},
+    	"properties": {
+     	   "ObjectID": 3,
+    	   "Caption": "Weekend Trip to Mallorca",
+           "City": "Palma de Mallorca",
+           "Purpose": "fun"
+    	   "ImageURL": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
     	}
     }]
 }
