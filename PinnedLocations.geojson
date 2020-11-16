@@ -1,25 +1,28 @@
 {
-"type": "LocationContentsCollection",
-"LocationContents": [{
+"type": "LocationCollection",
+"LocationCollection": [{
+    "type": "feature",
     "geometry": {
         "type": "point",
         "x": 33,
         "y": 40
     },
-    "attributes": {
+    "properties": {
         "ObjectID": 1,
         "Title": "Starting BSc degree in Bilkent University",
         "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
     }},{
+    "type": "feature",
     "geometry": {
         "type": "point",
         "x": 33,
         "y": 40
     },
-    "attributes": {
-        "ObjectID": 1,
-        "Title": "Starting BSc degree in Bilkent University",
+    "properties": {
+        "ObjectID": 2,
+        "Title": "Starting my Bachelor's studies in Bilkent University",
         "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
     }}
 ]
 }
+
