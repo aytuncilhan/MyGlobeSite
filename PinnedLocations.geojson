@@ -1,26 +1,33 @@
 {
+
 "type": "FeatureCollection",
-"features": [{
-    "type": "Feature",
-    "geometry": {
-        "type": "point",
-        "coordinates": [33,40]
+"features":
+[
+    {
+    	"type": "Feature",
+    	"geometry": {
+    	    "type": "point",
+    	    "coordinates": [33,40]
+    	},
+    	"properties": {
+    	    "ObjectID": 1,
+    	    "Title": "Starting BSc degree in Bilkent University",
+    	    "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+    	}
     },
-    "properties": {
-        "ObjectID": 1,
-        "Title": "Starting BSc degree in Bilkent University",
-        "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
-    }},{
-    "type": "feature",
-    "geometry": {
-        "type": "point",
-        "coordinates": [2,50]
-    },
-    "properties": {
-        "ObjectID": 2,
-        "Title": "Starting my Bachelor's studies in Bilkent University",
-        "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
-    }}
+    {
+    	"type": "feature",
+    	"geometry": {
+    	    "type": "point",
+    	    "coordinates": [2,50]
+    	},
+    	"properties": {
+     	   "ObjectID": 2,
+    	    "Title": "Starting my Bachelor's studies in Bilkent University",
+    	    "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+    	}
+    }
 ]
+
 }
 
