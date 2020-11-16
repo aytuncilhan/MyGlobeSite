@@ -32,7 +32,7 @@
     	"type": "Feature",
     	"geometry": {
     	    "type": "Point",
-    	    "coordinates": [40,3]
+    	    "coordinates": [3,40]
     	},
     	"properties": {
      	   "ObjectID": 3,
