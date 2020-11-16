@@ -8,7 +8,7 @@
     	},
     	"properties": {
     	    "ObjectID": 1,
-    	    "Title": "Starting BSc degree in Bilkent University",
+    	    "Description": "Starting BSc degree in Bilkent University",
             "City": "Ankara",
     	    "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
     	}
@@ -21,8 +21,8 @@
     	},
     	"properties": {
      	   "ObjectID": 2,
-    	   "Title": "Starting my Bachelor's studies in Bilkent University",
-           "City": "Brussels"
+    	   "Description": "Starting my Bachelor's studies in Bilkent University",
+           "City": "Brussels",
     	   "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
     	}
     }]
