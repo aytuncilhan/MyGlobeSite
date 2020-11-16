@@ -1,7 +1,7 @@
 {
-"type": "LocationCollection",
-"LocationCollection": [{
-    "type": "feature",
+"type": "FeatureCollection",
+"features": [{
+    "type": "Feature",
     "geometry": {
         "type": "point",
         "x": 33,
