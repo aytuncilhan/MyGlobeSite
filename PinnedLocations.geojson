@@ -10,7 +10,7 @@
     	    "ObjectID": 1,
     	    "Caption": "Starting BSc degree in Bilkent University",
             "City": "Ankara",
-            "Purpose": "pro"
+            "Purpose": "pro",
     	    "ImageURL": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
     	}
     },
@@ -24,7 +24,7 @@
      	   "ObjectID": 2,
     	   "Caption": "Starting my Bachelor's studies in Bilkent University",
            "City": "Brussels",
-           "Purpose": "pro"
+           "Purpose": "pro",
     	   "ImageURL": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/WithSuit.jpeg"
     	}
     },
@@ -38,7 +38,7 @@
      	   "ObjectID": 3,
     	   "Caption": "Weekend Trip to Mallorca",
            "City": "Palma de Mallorca",
-           "Purpose": "fun"
+           "Purpose": "fun",
     	   "ImageURL": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
     	}
     }]
