@@ -1,9 +1,6 @@
 {
-
 "type": "FeatureCollection",
-"features":
-[
-    {
+"features":[{
     	"type": "Feature",
     	"geometry": {
     	    "type": "point",
@@ -23,11 +20,9 @@
     	},
     	"properties": {
      	   "ObjectID": 2,
-    	    "Title": "Starting my Bachelor's studies in Bilkent University",
-    	    "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+    	   "Title": "Starting my Bachelor's studies in Bilkent University",
+    	   "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
     	}
-    }
-]
-
+    }]
 }
 
