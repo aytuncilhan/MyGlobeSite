@@ -1,3 +1,3 @@
 # MyGlobeSite
 My personal website.
-An intercative globe will be added.
+An interactive globe will be added using Esri ArcGIS libraries.
