@@ -4,8 +4,7 @@
     "type": "Feature",
     "geometry": {
         "type": "point",
-        "x": 33,
-        "y": 40
+        "coordinates": [33,40]
     },
     "properties": {
         "ObjectID": 1,
@@ -15,8 +14,7 @@
     "type": "feature",
     "geometry": {
         "type": "point",
-        "x": 33,
-        "y": 40
+        "coordinates": [2,50]
     },
     "properties": {
         "ObjectID": 2,
