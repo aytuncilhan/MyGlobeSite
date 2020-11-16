@@ -13,7 +13,7 @@
     	}
     },
     {
-    	"type": "feature",
+    	"type": "Feature",
     	"geometry": {
     	    "type": "point",
     	    "coordinates": [2,50]
