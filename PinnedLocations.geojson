@@ -6,7 +6,6 @@
     	    "coordinates": [33,40]
     	},
     	"properties": {
-    	    "ObjectID": 1,
     	    "Title": "Starting BSc degree in Bilkent University",
     	    "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
     	}
@@ -18,7 +17,6 @@
     	    "coordinates": [2,50]
     	},
     	"properties": {
-     	   "ObjectID": 2,
     	   "Title": "Starting my Bachelor's studies in Bilkent University",
     	   "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
     	}
