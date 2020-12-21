@@ -8,6 +8,7 @@
             },
             "properties": {
                 "ObjectID": 1,
+                "IconColorID": 1,
                 "Title": "Starting BSc degree in Bilkent University",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
             }
@@ -20,6 +21,7 @@
             },
             "properties": {
                 "ObjectID": 2,
+                "IconColorID": 1,
                "Title": "Brussels Internship Experience",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
             }
@@ -32,6 +34,7 @@
             },
             "properties": {
                 "ObjectID": 3,
+              "IconColorID": 2,
                "Title": "Palma de Mallorca",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
             }
@@ -40,10 +43,11 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [1,40]
+                "coordinates": [-77,40]
             },
             "properties": {
                 "ObjectID": 4,
+              "IconColorID": 2,
                "Title": "USA Vacay",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
             }
@@ -56,6 +60,7 @@
             },
             "properties": {
                 "ObjectID": 5,
+              "IconColorID": 2,
                "Title": "Dubai Vacation",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
             }
