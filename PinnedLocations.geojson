@@ -1,104 +1,65 @@
-require([
-  "esri/Map",
-  "esri/layers/GeoJSONLayer",
-  "esri/views/SceneView"
-  ],
-
-  function (Map, GeoJSONLayer, SceneView) {
-
-    var UniWebStyle = {
-      type: "web-style",
-      name: "Pushpin 3",
-      portal: { url: "https://www.arcgis.com" },
-      styleName: "EsriIconsStyle",
-    };
-
-    //Pinned Locations Icon to override the default renderer of GeoJSON Layer
-    const myRenderer = {
-      type: "simple",
-      field: "ObjectID",
-      symbol: UniWebStyle,
-      visualVariables: [
-        {
-          type: "color",
-          field: "ObjectID",
-          stops: [
-            {
-              value: 1,
-              color: "black"
+{
+    "type": "FeatureCollection",
+    "features":[{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [33,40]
             },
-            {
-              value: 2,
-              color: "yellow"
+            "properties": {
+                "ObjectID": 1,
+                "Title": "Starting BSc degree in Bilkent University",
+                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
             }
-          ]
-        },{
-          type: "size",
-          field: "ObjectID",
-          stops: [
-            {
-              value: 1,
-              size: 20
-            },
-            {
-              value: 2,
-              size: 20
-            }
-          ]
-        }
-      ]
-    };
-
-    const url = "https://aytuncilhan.github.io/PinnedLocations.geojson";
-    const myPopuptemplate = {
-      title: "This one is about...",
-      content: "City: {City} - {Caption}",
-      fieldInfos: [
-        {
-          fieldName: "ObjectID",
-          format: {
-            dateFormat: "short-date-short-time"
-          }
-        }
-      ]
-    };
-
-    //The layer accomodates the geographic info, graphics, and popup style
-    var geojsonLayer = new GeoJSONLayer({
-      url: url,
-      popupTemplate: myPopuptemplate,
-      renderer: myRenderer
-    });
-
-    // Initialize the Map
-    var map = new Map({
-      basemap: "satellite",
-      layers: [geojsonLayer]
-    });
-
-    // Creating the SceneView instance to display the 3D globe
-    var view = new SceneView({
-      container: "viewDiv", // Reference to the DOM node that will contain the view
-      map: map, // Reference to the created map object
-      scale: 50000000, // Sets the initial scale to 1:50,000,000
-      center: [14, 42], // Sets the center point of view with lon/lat
-
-      popup: {
-        dockEnabled: true,
-        dockOptions: {
-          position: "top-right",
-          breakpoint: false,
-          buttonEnabled: false
         },
-        collapseEnabled: false
-      },
-
-      highlightOptions: {
-        color: [255, 255, 255],
-        haloOpacity: 0.8
-      }
-    });
-
-  }
-
-);
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2,50]
+            },
+            "properties": {
+                "ObjectID": 2,
+               "Title": "Brussels Internship Experience",
+               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [3,40]
+            },
+            "properties": {
+                "ObjectID": 3,
+               "Title": "Palma de Mallorca",
+               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [1,40]
+            },
+            "properties": {
+                "ObjectID": 4,
+               "Title": "USA Vacay",
+               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [55,25]
+            },
+            "properties": {
+                "ObjectID": 5,
+               "Title": "Dubai Vacation",
+               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+            }
+        }]
+    }
+    
+    
