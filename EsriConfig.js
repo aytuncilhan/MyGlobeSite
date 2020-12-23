@@ -51,7 +51,7 @@ require([
 
     const url = "https://aytuncilhan.github.io/PinnedLocations.geojson";
     const myPopuptemplate = {
-      title: "This one is about...",
+      title: "{Title}",
       content: "City: {City} - {Caption}",
       fieldInfos: [
         {
