@@ -52,15 +52,22 @@ require([
     const url = "https://aytuncilhan.github.io/PinnedLocations.geojson";
     const myPopuptemplate = {
       title: "{Title}",
-      content: "City: {City} - {Caption}",
-      fieldInfos: [
+      content: [
+        { 
+          type: "text",
+          text: "{City}" 
+        }, 
         {
-          fieldName: "ObjectID",
-          format: {
-            dateFormat: "short-date-short-time"
+          type: "media",
+          mediaInfos:
+          {
+            type: "image",
+            value: {
+              sourceURL: "{url}"
+            }
           }
         }
-      ]
+    ]
     };
 
     //The layer accomodates the geographic info, graphics, and popup style
