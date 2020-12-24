@@ -1,2 +1,1 @@
-# Personal Website
-Currently Under Construction...
+# Personal Website Currently Under Construction
