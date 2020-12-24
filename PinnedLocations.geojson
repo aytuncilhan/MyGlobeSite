@@ -9,7 +9,20 @@
             "properties": {
                 "ObjectID": 1,
                 "IconColorID": 1,
-                "Title": "Starting my university education in Bilkent University!",
+                "Title": "Starting my university education in Bilkent University",
+                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/UWithSuit.jpeg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [6,51]
+            },
+            "properties": {
+                "ObjectID": 1,
+                "IconColorID": 1,
+                "Title": "RWTH Aachen University",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/UWithSuit.jpeg"
             }
         },
