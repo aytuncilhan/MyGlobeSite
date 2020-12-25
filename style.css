@@ -8,4 +8,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 0;
+}
+
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+#leftPane {
+  position: absolute;
+  left: 10px;
+  bottom: 25px;
+  height: 300px;
+  width: 200px;
+  background: rgba(176, 187, 194, 0.911);
+  z-index: 2;
+  border-radius: 10px;
+}
+
+#leftPane > h3{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 13pt;
+  color: rgb(0, 0, 0);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

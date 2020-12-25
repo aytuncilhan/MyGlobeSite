@@ -89,7 +89,7 @@ require([
       map: map, // Reference to the created map object
       scale: 50000000, // Sets the initial scale to 1:50,000,000
       center: [14, 42], // Sets the center point of view with lon/lat
-
+      
       popup: {
         dockEnabled: true,
         dockOptions: {
