@@ -69,7 +69,7 @@ require([
     ]
     };
 
-    const url_Pro = "https://aytuncilhan.github.io/PinnedLocations.geojson";
+    const url_Pro = "https://aytuncilhan.github.io/ProfessionalLocations.geojson";
     //The layer accomodates the geographic info, graphics, and popup style
     var geojsonLayer = new GeoJSONLayer({
       url: url_Pro,
@@ -77,7 +77,7 @@ require([
       renderer: myRenderer
     });
 
-    const url_Leisure = "https://aytuncilhan.github.io/PinnedLocations.geojson";
+    const url_Leisure = "https://aytuncilhan.github.io/LeisureLocations.geojson";
     //The layer accomodates the geographic info, graphics, and popup style
     var LeisureLayer = new GeoJSONLayer({
       url: url_Leisure,
@@ -116,7 +116,7 @@ require([
 
     $("#toggle-event1").on('change', function() {
       if ($(this).is(':checked')) {
-          geojsonLayer.visible = true;
+        geojsonLayer.visible = true;
       }
       else {
         geojsonLayer.visible = false;
@@ -125,11 +125,12 @@ require([
 
     $("#toggle-event2").on('change', function() {
       if ($(this).is(':checked')) {
-          LeisureLayer.visible = true;
+        LeisureLayer.visible = true;
       }
       else {
         LeisureLayer.visible = false;
       }
     });
+
   }
 );
