@@ -25,11 +25,11 @@ require([
           stops: [
             {
               value: 1,
-              color: "black"
+              color: "#E8666C"
             },
             {
               value: 2,
-              color: "yellow"
+              color: "#fee440"
             }
           ]
         },{
@@ -38,18 +38,17 @@ require([
           stops: [
             {
               value: 1,
-              size: 20
+              size: 25
             },
             {
               value: 2,
-              size: 20
+              size: 25
             }
           ]
         }
       ]
     };
 
-    const url = "https://aytuncilhan.github.io/PinnedLocations.geojson";
     const myPopuptemplate = {
       title: "{Title}",
       content: [
@@ -70,9 +69,18 @@ require([
     ]
     };
 
+    const url_Pro = "https://aytuncilhan.github.io/PinnedLocations.geojson";
     //The layer accomodates the geographic info, graphics, and popup style
     var geojsonLayer = new GeoJSONLayer({
-      url: url,
+      url: url_Pro,
+      popupTemplate: myPopuptemplate,
+      renderer: myRenderer
+    });
+
+    const url_Leisure = "https://aytuncilhan.github.io/PinnedLocations.geojson";
+    //The layer accomodates the geographic info, graphics, and popup style
+    var LeisureLayer = new GeoJSONLayer({
+      url: url_Leisure,
       popupTemplate: myPopuptemplate,
       renderer: myRenderer
     });
@@ -80,7 +88,7 @@ require([
     // Initialize the Map
     var map = new Map({
       basemap: "satellite",
-      layers: [geojsonLayer]
+      layers: [geojsonLayer, LeisureLayer]
     });
 
     // Creating the SceneView instance to display the 3D globe
@@ -89,7 +97,7 @@ require([
       map: map, // Reference to the created map object
       scale: 50000000, // Sets the initial scale to 1:50,000,000
       center: [14, 42], // Sets the center point of view with lon/lat
-      
+
       popup: {
         dockEnabled: true,
         dockOptions: {
@@ -106,6 +114,22 @@ require([
       }
     });
 
-  }
+    $("#toggle-event1").on('change', function() {
+      if ($(this).is(':checked')) {
+          geojsonLayer.visible = true;
+      }
+      else {
+        geojsonLayer.visible = false;
+      }
+    });
 
+    $("#toggle-event2").on('change', function() {
+      if ($(this).is(':checked')) {
+          LeisureLayer.visible = true;
+      }
+      else {
+        LeisureLayer.visible = false;
+      }
+    });
+  }
 );
