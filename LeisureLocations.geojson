@@ -4,19 +4,6 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [2,50]
-            },
-            "properties": {
-                "ObjectID": 2,
-                "IconColorID": 1,
-                "Title": "Brussels",
-                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/WithSuit.jpeg"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
                 "coordinates": [3,40]
             },
             "properties": {

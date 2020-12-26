@@ -24,8 +24,8 @@ body {
   left: 10px;
   bottom: 25px;
   height: 300px;
-  width: 225px;
-  background: rgb(150, 150, 150);
+  width: 200px;
+  background: rgba(255, 238, 0, 0.795);
   z-index: 2;
   border-radius: 10px;
 }
