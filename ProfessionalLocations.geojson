@@ -22,21 +22,8 @@
             "properties": {
                 "ObjectID": 1,
                 "IconColorID": 1,
-                "Title": "Bilkent University",
+                "Title": "Solvoyo",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [6,51]
-            },
-            "properties": {
-                "ObjectID": 1,
-                "IconColorID": 1,
-                "Title": "RWTH Aachen University",
-                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Aachen.jpeg"
             }
         }]
     }

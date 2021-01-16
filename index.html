@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aytunc Ilhan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--CSS Libraries-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css"/>
+  <link rel="stylesheet" href="/Users/aytuncilhan/Documents/General Docs/DIY Projects/aytuncilhan.github.io/style.css"/>
+
+  <!--JS Libraries-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://js.arcgis.com/4.18/"></script>
+  <script src="EsriConfig.js"></script>
+  
+</head>
+
+<body>
+  <!--
+  <div id="loadspinner" class="spinner-border" role="status">
+    <span id="loadspinner2" class="sr-only">Loading...</span>
+  </div>
+  -->
+
+
+    <div id="viewDiv"></div>
+    <div id="leftPane">
+      <h3>Toggle Options</h3>
+      <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="toggle-event3" checked='true'>
+        <label class="custom-control-label" for="toggle-event3">Education</label>
+      </div>
+      <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="toggle-event1" checked='true'>
+        <label class="custom-control-label" for="toggle-event1">Professional</label>
+      </div>
+      <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="toggle-event2" checked='true'>
+        <label class="custom-control-label" for="toggle-event2">Journeys</label>
+      </div>
+    </div>
+
+
+  <script>
+      //Hide the panel when loading the page
+      $('#leftPane').hide();
+  </script>
+</body>
+
+</html>

@@ -70,6 +70,14 @@ require([
     ]
     };
 
+    const url_Academic = "https://aytuncilhan.github.io/AcademicalLocations.geojson";
+    //The layer accomodates the geographic info, graphics, and popup style
+    var academicLayer = new GeoJSONLayer({
+      url: url_Academic,
+      popupTemplate: myPopuptemplate,
+      renderer: myRenderer
+    });
+
     const url_Pro = "https://aytuncilhan.github.io/ProfessionalLocations.geojson";
     //The layer accomodates the geographic info, graphics, and popup style
     var geojsonLayer = new GeoJSONLayer({
@@ -89,7 +97,7 @@ require([
     // Initialize the Map
     var map = new Map({
       basemap: "satellite",
-      layers: [geojsonLayer, LeisureLayer]
+      layers: [geojsonLayer, academicLayer, LeisureLayer]
     });
 
     // Creating the SceneView instance to display the 3D globe
@@ -130,6 +138,15 @@ require([
       }
       else {
         LeisureLayer.visible = false;
+      }
+    });
+
+    $("#toggle-event3").on('change', function() {
+      if ($(this).is(':checked')) {
+        academicLayer.visible = true;
+      }
+      else {
+        academicLayer.visible = false;
       }
     });
 
