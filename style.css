@@ -31,17 +31,16 @@ body {
 #leftPane > h3{ 
   position: relative;
   text-align: left;
-  color: rgba(255, 255, 255);
+  color: rgba(190, 190, 190);
   right: 0px;
   top: 2px;
   font-size: larger;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .custom-control-label{
-  color: rgba(255, 255, 255);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: larg;
+  color: rgb(190, 190, 190);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
