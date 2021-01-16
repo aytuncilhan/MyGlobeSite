@@ -1,10 +1,11 @@
 require([
   "esri/Map",
   "esri/layers/GeoJSONLayer",
-  "esri/views/SceneView"
+  "esri/views/SceneView",
+  "esri/core/watchUtils"
   ],
 
-  function (Map, GeoJSONLayer, SceneView) {
+  function (Map, GeoJSONLayer, SceneView, watchUtils) {
 
     var UniWebStyle = {
       type: "web-style",
@@ -132,5 +133,13 @@ require([
       }
     });
 
+    //Wait until the layer is loaded to display the Panel
+    watchUtils.whenTrue(LeisureLayer, "loaded", function() {
+      console.log("Changed to " + LeisureLayer.loadStatus);
+      $('#leftPane').show()
+    });
+    
   }
+  
 );
+
