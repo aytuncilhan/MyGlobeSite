@@ -22,8 +22,21 @@
             "properties": {
                 "ObjectID": 4,
               "IconColorID": 2,
-               "Title": "USA Vacay",
+               "Title": "Washington DC",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [41,23]
+            },
+            "properties": {
+              "ObjectID": 4,
+              "IconColorID": 2,
+               "Title": "Банско (Bansko) Ski Holiday",
+               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Ski.jpeg"
             }
         },
         {
@@ -36,7 +49,7 @@
                 "ObjectID": 5,
               "IconColorID": 2,
                "Title": "Dubai Vacation",
-               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"
             }
         }]
     }
