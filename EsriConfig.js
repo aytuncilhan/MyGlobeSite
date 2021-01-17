@@ -34,7 +34,7 @@ require([
             },
             {
               value: 3,
-              color: "#3238a8"
+              color: "#32a2a8"
             }
           ]
         },{
