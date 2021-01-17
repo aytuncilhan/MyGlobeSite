@@ -31,6 +31,10 @@ require([
             {
               value: 2,
               color: "#fee440"
+            },
+            {
+              value: 3,
+              color: "#3238a8"
             }
           ]
         },{

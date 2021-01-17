@@ -7,7 +7,7 @@
                 "coordinates": [3,40]
             },
             "properties": {
-                "ObjectID": 3,
+                "ObjectID": 1,
               "IconColorID": 2,
                "Title": "Palma de Mallorca",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.png"
@@ -20,7 +20,7 @@
                 "coordinates": [-77,40]
             },
             "properties": {
-                "ObjectID": 4,
+                "ObjectID": 2,
               "IconColorID": 2,
                "Title": "Washington DC",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
@@ -30,10 +30,10 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [41,23]
+                "coordinates": [23,41]
             },
             "properties": {
-              "ObjectID": 4,
+              "ObjectID": 3,
               "IconColorID": 2,
                "Title": "Банско (Bansko) Ski Holiday",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Ski.jpeg"
@@ -46,7 +46,7 @@
                 "coordinates": [55,25]
             },
             "properties": {
-                "ObjectID": 5,
+                "ObjectID": 4,
               "IconColorID": 2,
                "Title": "Dubai Vacation",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"

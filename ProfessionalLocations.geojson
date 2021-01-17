@@ -7,8 +7,8 @@
                 "coordinates": [2,50]
             },
             "properties": {
-                "ObjectID": 2,
-                "IconColorID": 1,
+                "ObjectID": 1,
+                "IconColorID": 3,
                 "Title": "Brussels",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/WithSuit.jpeg"
             }
@@ -20,8 +20,8 @@
                 "coordinates": [29,41]
             },
             "properties": {
-                "ObjectID": 1,
-                "IconColorID": 1,
+                "ObjectID": 2,
+                "IconColorID": 3,
                 "Title": "Solvoyo",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/IstView.jpeg"
             }
