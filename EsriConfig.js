@@ -59,7 +59,7 @@ require([
       content: [
         { 
           type: "text",
-          text: "{City}" 
+          text: "{Desc}" 
         }, 
         {
           type: "media",

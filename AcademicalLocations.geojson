@@ -11,7 +11,7 @@
                 "ObjectID": 1,
                 "IconColorID": 1,
                 "Title": "Bilkent University",
-                "City": "Though there has been sleeples nights throughout four years, the feeling when I received my Bachelor of Science diploma was indescribable. Sure, graduating with an honors degree from one of the most competitive universities in the country was a great source of joy and satisfaction, <i>but more, much more than this I did it my way!</i>",
+                "Desc": "Sure, graduating with an honors degree from one of the most competitive universities in the country was a great source of joy and satisfaction, but what's important <i>more, much more than this I did it my way!</i>",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncGrad.jpg"
             }
         },
@@ -25,7 +25,7 @@
                 "ObjectID": 2,
                 "IconColorID": 1,
                 "Title": "RWTH Aachen University",
-                "City": "<b>Masters Degree</b>",
+                "Desc": "<b>In progress...</b>",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Aachen.jpeg"
             }
         }]

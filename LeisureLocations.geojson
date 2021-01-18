@@ -10,6 +10,7 @@
                 "ObjectID": 1,
               "IconColorID": 2,
                "Title": "Weekend Getaway in Spain",
+               "Desc": "Palma de Mallorca, which is German's favorite holiday destination!"
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.png"
             }
         },
@@ -23,6 +24,7 @@
                 "ObjectID": 2,
               "IconColorID": 2,
                "Title": "Washington DC",
+               "Desc": "Too far but totally worth it. Oh also, portions are enormous, would recommend. Still not sure if Cheesecake Factory was real or a low resolution rendering of paradise... Maybe it was the sugar... Like I said still not sure."
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
             }
         },
@@ -36,6 +38,7 @@
               "ObjectID": 3,
               "IconColorID": 2,
                "Title": "Банско (Bansko) Ski Festival",
+               "Desc" "I guess when you're at this time of your life (age 21), below zero degrees does not affect you as much as they do after some more years (age 24, below 10 degrees just feels like too cold for human habitance).
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Ski.jpeg"
             }
         },
@@ -49,6 +52,7 @@
               "ObjectID": 3,
               "IconColorID": 2,
                "Title": "Sicilian Summer",
+               "Desc": "Had the longest BlaBlaCar ride of my life: From Rome to Messina...",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
             }
         },
@@ -62,6 +66,7 @@
               "ObjectID": 3,
               "IconColorID": 2,
                "Title": "Oktoberfest",
+               "Desc": "Drinking 1L sized beers, eating wurtz, and getting onto roller coasters - not sure who thought of this but kudos. 10/10 can recommend!"
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
             }
         },
@@ -75,6 +80,7 @@
                 "ObjectID": 4,
               "IconColorID": 2,
                "Title": "Winter in Dubai",
+               "Desc": "Now, you think you know what "over the top" means. Well, I suggest you visit Dubai and reconsider your norms..."
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"
             }
         }]
