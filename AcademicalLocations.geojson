@@ -11,7 +11,12 @@
                 "ObjectID": 1,
                 "IconColorID": 1,
                 "Title": "Bilkent University",
-                "City": "On our first experience at Bilkent Labs, we're cheerful",
+                "City": "On our first experience at Bilkent Labs, we're cheerful,hope this continuos likewise. This was the caption"
+                + " of my instagram post in the Bilkent Labs using an oscillisocope for the first time. Though there has been" +
+                " sleeples nights in those labs throughout four years of my Bachelors degree, the feeling when I received my " + 
+                " Bachelor of Science degree is unspeakble after four years of hustling. I was the type of person who had to go "
+                + " home after a nighout because I had to study... Sure, having graduated with an honors degree was a source of "
+                " joy and satisfaction, <i>but more, much more than this I did it my way!</i>",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncGrad.jpg"
             }
         },
@@ -25,7 +30,7 @@
                 "ObjectID": 2,
                 "IconColorID": 1,
                 "Title": "RWTH Aachen University",
-                "City": "Masters Degree",
+                "City": "<b>Masters Degree</b>",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Aachen.jpeg"
             }
         }]
