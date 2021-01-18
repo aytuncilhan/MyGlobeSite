@@ -56,6 +56,19 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
+                "coordinates": [12,48]
+            },
+            "properties": {
+              "ObjectID": 3,
+              "IconColorID": 2,
+               "Title": "Oktoberfest",
+               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
                 "coordinates": [55,25]
             },
             "properties": {
