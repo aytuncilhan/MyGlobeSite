@@ -9,7 +9,7 @@
             "properties": {
                 "ObjectID": 1,
                 "IconColorID": 3,
-                "Title": "Brussels",
+                "Title": "Where will Brussels take you?",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/WithSuit.jpeg"
             }
         },
@@ -22,7 +22,7 @@
             "properties": {
                 "ObjectID": 2,
                 "IconColorID": 3,
-                "Title": "Solvoyo",
+                "Title": ""It doesn't take an army!"",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/IstView.jpeg"
             }
         }]

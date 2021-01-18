@@ -9,7 +9,7 @@
             "properties": {
                 "ObjectID": 1,
               "IconColorID": 2,
-               "Title": "Palma de Mallorca",
+               "Title": "Weekend Getaway in Spain",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.png"
             }
         },
@@ -35,8 +35,21 @@
             "properties": {
               "ObjectID": 3,
               "IconColorID": 2,
-               "Title": "Банско (Bansko) Ski Holiday",
+               "Title": "Банско (Bansko) Ski Festival",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Ski.jpeg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [14,38]
+            },
+            "properties": {
+              "ObjectID": 3,
+              "IconColorID": 2,
+               "Title": "Sicilian Summer",
+               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
             }
         },
         {
@@ -48,7 +61,7 @@
             "properties": {
                 "ObjectID": 4,
               "IconColorID": 2,
-               "Title": "Dubai Vacation",
+               "Title": "Winter in Dubai",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"
             }
         }]
