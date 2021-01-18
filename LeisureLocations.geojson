@@ -9,8 +9,8 @@
             "properties": {
                 "ObjectID": 1,
               "IconColorID": 2,
-               "Title": "Weekend Getaway in Spain",
-               "Desc": "Palma de Mallorca, which is Germans favorite holiday destination!",
+               "Title": "A Weekend well Spent",
+               "Desc": "Palma de Mallorca!",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.png"
             }
         },
@@ -38,7 +38,7 @@
               "ObjectID": 3,
               "IconColorID": 2,
                "Title": "Банско (Bansko) Ski Festival",
-               "Desc" "I guess when you're at this time of your life (age 21), below zero degrees does not affect you as much as they do after some more years (age 24, below 10 degrees just feels like too cold for human habitance).",
+               "Desc" "I guess when you are at this time of your life (age 21), below zero degrees does not affect you as much as they do after some more years (age 24, below 10 degrees just feels like too cold for human habitance).",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Ski.jpeg"
             }
         },
