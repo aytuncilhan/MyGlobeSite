@@ -42,6 +42,10 @@ body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.esri-feature__content-element {
+  padding: 0 0 0;
+}
+
 
 
 
