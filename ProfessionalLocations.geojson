@@ -24,7 +24,7 @@
                 "ObjectID": 2,
                 "IconColorID": 3,
                 "Title": "''It doesn't take an army! It takes a few good people.''",
-                "Desc": "This was my former boss' motto and the exact definition of my team at Solvoyo. Being the COO of a high-tech start-up, Nilufer has always been a great mentor and source of inspiration for me. Not only she has always encouraged me to push my limits and grow in multiple domains, but also has put her trust in me and stood by me just like a true leader. Albeit, it's a bit ironic that I started my internship at NATO while trying to internalize the motto that argues <i>''it does not take an <b>army</b>!''</i> Maybe it is true after all, it takes <a href='https://www.nato.int/cps/en/natohq/nato_countries.htm' style='color:#0000FF'>thirty of them</a> instead of one...",
+                "Desc": "This was my former boss' motto and the exact definition of my team at Solvoyo. Being the COO of a high-tech start-up, Nilufer has always been a great mentor and source of inspiration for me. Not only she has always encouraged me to push my limits and grow in multiple domains, but also has put her trust in me and stood by me just like a true leader. Albeit, it's a bit ironic that I started my internship at NATO while trying to internalize the motto that argues <i>''it does not take an <b>army</b>!''</i> Maybe it is true after all, it takes <p style='color:#0000FF'> <a href='https://www.nato.int/cps/en/natohq/nato_countries.htm'>thirty of them</a></p> instead of one...",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/IstView.jpeg"
             }
         }]
