@@ -48,6 +48,11 @@ body {
   padding: 0 0 0;
 }
 
+#leftPane > p{ 
+  color: rgb(196, 255, 235);
+  font-size: large;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
