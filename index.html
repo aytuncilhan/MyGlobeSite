@@ -16,6 +16,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://js.arcgis.com/4.18/"></script>
   <script src="EsriConfig.js"></script>
+  <script src="typed.js"></script>
+  <script src="typed.min.js"></script>
   
 </head>
 
@@ -29,6 +31,15 @@
 
     <div id="viewDiv"></div>
     <div id="leftPane">
+
+      
+      <span class="text-slider-items"> 
+        A computer Science portal for  
+        geeks, A place to pratice code 
+      </span> 
+      <span class="text-slider"></span> 
+
+
       <h3>Hi! I'm Aytunc,</h3>
       <p>...and this is my small pep-project.</p>
       <br> <br> <br> <Br>
@@ -47,10 +58,24 @@
       </div>
     </div>
 
-
   <script>
       //Hide the panel when loading the page
       $('#leftPane').hide();
+
+      if ($(".text-slider").length == 1) { 
+              
+              var typed_strings =  
+                  $(".text-slider-items").text(); 
+    
+              var typed = new Typed(".text-slider", { 
+                  strings: typed_strings.split(", "), 
+                  typeSpeed: 50, 
+                  loop: true, 
+                  backDelay: 900, 
+                  backSpeed: 30, 
+              }); 
+          }
+
   </script>
 </body>
 
