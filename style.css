@@ -39,19 +39,7 @@ body {
 }
 
 /* Left pane text styling */
-.custom-control-label-Ed{
-  /* color: rgb(190, 190, 190); */
-  color: #E8666C;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.custom-control-label-Pro{
-  color: #32a2a8;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.custom-control-label-Jour{
-  color: #fee440;
+.custom-control-label{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
