@@ -9,8 +9,8 @@
             "properties": {
                 "ObjectID": 1,
               "IconColorID": 2,
-               "Title": "A Weekend well Spent",
-               "Desc": "Palma de Mallorca!",
+               "Title": "Palma de Mallorca",
+               "Desc": "A weekend well spent with Spanish beer and tapas.",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.png"
             }
         },
@@ -37,8 +37,8 @@
             "properties": {
               "ObjectID": 3,
               "IconColorID": 2,
-               "Title": "Банско (Bansko) Ski Festival",
-               "Desc": "Ski by day and party by night! Incredible slopes exist for adrenaline addicts like me.",
+               "Title": "Bansko Ski Festival",
+               "Desc": "Ideal tracks for both adrenaline addicts and beginners. The view from the summit is heavenly.",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Ski.jpeg"
             }
         },
@@ -52,7 +52,7 @@
               "ObjectID": 3,
               "IconColorID": 2,
                "Title": "Sicilian Summer",
-               "Desc": "From Rome to Messina, I had the longest BlaBlaCar ride of my life in Italy... Albeit, the Sicilian Canoli I had definitely made up for the 700 km long car ride we had with people who doesn't speak English...",
+               "Desc": "From Rome to Messina, I had the longest BlaBlaCar ride of my life in Italy... Albeit, the Sicilian Canoli I had definitely made up for the 700 km ride (with people who don't speak s common language with us...)",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
             }
         },
@@ -66,7 +66,7 @@
               "ObjectID": 3,
               "IconColorID": 2,
                "Title": "Oktoberfest",
-               "Desc": "German beer - but serve it in American sized portions.",
+               "Desc": "Simply put, drinking German beer - but in American sized portions.",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
             }
         },
@@ -80,7 +80,7 @@
                 "ObjectID": 4,
               "IconColorID": 2,
                "Title": "Winter in Dubai",
-               "Desc": "As it can be seen from this photo, I can easily adapt to new environments...",
+               "Desc": "As it can be seen from the photograph below, I easily adapt to unfamiliar environments...",
                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"
             }
         }]

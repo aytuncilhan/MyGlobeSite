@@ -27,6 +27,7 @@ body {
        animation: fadein 2s;
 }
 
+/* Left pane styling */
 #leftPane > h3{ 
   position: relative;
   text-align: left;
@@ -37,11 +38,24 @@ body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.custom-control-label{
-  color: rgb(190, 190, 190);
+/* Left pane text styling */
+.custom-control-label-Ed{
+  /* color: rgb(190, 190, 190); */
+  color: #E8666C;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.custom-control-label-Pro{
+  color: #32a2a8;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.custom-control-label-Jour{
+  color: #fee440;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* To remove the default padding between the image and text in the popup */
 .esri-feature__content-element {
   padding: 0 0 0;
 }
