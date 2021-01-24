@@ -59,6 +59,7 @@ body {
 
 #rightPane {
   position: absolute;
+  right: 1%;
   top: 2%;
   background: rgba(255, 255, 255, 0);
   z-index: 0;
@@ -75,8 +76,6 @@ body {
 /* Left pane styling */
 #rightPane > h3{ 
   position: relative;
-  right: 1%;
-  top: 3%;
   text-align: left;
   color: rgba(190, 190, 190);
   right: 0px;
