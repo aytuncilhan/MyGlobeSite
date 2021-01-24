@@ -4,8 +4,8 @@ body {
 }
 
 a:link, a:visited {
-  background-color: rgb(38, 95, 148);
-  color: white;
+  color: blue;
+  text-decoration: underline;
   text-align: center;
   text-decoration: none;
   display: inline-block;
