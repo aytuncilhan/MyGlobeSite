@@ -157,7 +157,8 @@ require([
     //Wait until the layer is loaded to display the Panel
     watchUtils.whenTrue(LeisureLayer, "loaded", function() {
       console.log("Changed to " + LeisureLayer.loadStatus);
-      $('#leftPane').show()
+      $('#leftPane').show();
+      $('#rightPane').show();
     });
     
   }

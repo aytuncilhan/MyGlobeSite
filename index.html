@@ -12,7 +12,8 @@
 
   <!--JS Libraries-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="typed.js"></script>
+  <script src="typed.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://js.arcgis.com/4.18/"></script>
   <script src="EsriConfig.js"></script>
@@ -26,15 +27,14 @@
   </div>
   -->
 
-
     <div id="viewDiv"></div>
     <div id="leftPane">
 
       <h3>Hi! I'm Aytunc,</h3>
-      <span id="typed" style="color: azure;"></span>
-      
-      <br> <br> <br>
+      <strong class="text-slider"></strong> 
+    </div>
 
+    <div id="rightPane">
       <h3>Toggle Options</h3>
       <div class="custom-control custom-switch">
         <input type="checkbox" class="custom-control-input" id="toggle-event3" checked='true'>
@@ -53,7 +53,27 @@
   <script>
       //Hide the panel when loading the page
       $('#leftPane').hide();
+      $('#rightPane').hide();
   </script>
+
+  <!-- Add this script for successful implementation of typed.js  -->
+  <script> 
+  if ($(".text-slider").length == 1) { 
+        
+      var typed_strings =  ["I am working as a Porject Officer at NATO",
+                            "I am into programming", "I am 24 years old",
+                            "I live in Brussels"];
+
+      var typed = new Typed(".text-slider", { 
+          strings: typed_strings.split(", "), 
+          typeSpeed: 50, 
+          loop: true, 
+          backDelay: 900, 
+          backSpeed: 30, 
+      }); 
+  } 
+  </script> 
+
 </body>
 
 </html>

@@ -57,6 +57,40 @@ body {
 
 
 
+#rightPane {
+  position: absolute;
+  right: 1%;
+  top: 5%;
+  background: rgba(255, 255, 255, 0);
+  z-index: 0;
+  border-radius: 2px;
+  width: 12%;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+   -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
+}
+
+/* Left pane styling */
+#rightPane > h3{ 
+  position: relative;
+  text-align: left;
+  color: rgba(190, 190, 190);
+  right: 0px;
+  top: 2px;
+  font-size: larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rightPane > p{ 
+  color: rgb(145, 145, 145);
+  font-size: medium;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 
 
 
