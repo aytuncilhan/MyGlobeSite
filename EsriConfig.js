@@ -25,21 +25,24 @@ require([
           field: "IconColorID",
           stops: [
             {
+              //Education
               value: 1,
               color: "#E8666C"
             },
             {
+              //Journeys
               value: 2,
               color: "#fee440"
             },
             {
+              //Professional
               value: 3,
               color: "#18191a"
             }
           ]
         },{
           type: "size",
-          field: "ObjectID",
+          field: "SizeID",
           stops: [
             {
               value: 1,
@@ -47,7 +50,7 @@ require([
             },
             {
               value: 2,
-              size: 25
+              size: 15
             }
           ]
         }

@@ -8,10 +8,11 @@
             },
             "properties": {
                 "ObjectID": 1,
-              "IconColorID": 2,
-               "Title": "Palma de Mallorca",
-               "Desc": "A weekend well spent with Spanish beer and tapas.",
-               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.png"
+                "PinColorID": 2,
+                "PinSizeID": 2,
+                "Title": "Palma de Mallorca",
+                "Desc": "A weekend well spent with Spanish beer and tapas.",
+                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.png"
             }
         },
         {
@@ -22,10 +23,11 @@
             },
             "properties": {
                 "ObjectID": 2,
-              "IconColorID": 2,
-               "Title": "Washington DC",
-               "Desc": "Still not sure if Cheesecake Factory was real or a low resolution rendering of paradise...",
-               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
+                "PinColorID": 2,
+                "PinSizeID": 2,
+                "Title": "Washington DC",
+                "Desc": "Still not sure if Cheesecake Factory was real or a low resolution rendering of paradise...",
+                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Uni.jpeg"
             }
         },
         {
@@ -35,11 +37,12 @@
                 "coordinates": [23,41]
             },
             "properties": {
-              "ObjectID": 3,
-              "IconColorID": 2,
-               "Title": "Bansko Ski Festival",
-               "Desc": "Ideal tracks for both adrenaline addicts and beginners. The view from the summit is heavenly.",
-               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Ski.jpeg"
+                "ObjectID": 3,
+                "PinColorID": 2,
+                "PinSizeID": 2,
+                "Title": "Bansko Ski Festival",
+                "Desc": "Ideal tracks for both adrenaline addicts and beginners. The view from the summit is heavenly.",
+                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Ski.jpeg"
             }
         },
         {
@@ -49,11 +52,12 @@
                 "coordinates": [14,38]
             },
             "properties": {
-              "ObjectID": 3,
-              "IconColorID": 2,
-               "Title": "Sicilian Summer",
-               "Desc": "From Rome to Messina, I had the longest BlaBlaCar ride of my life in Italy... Albeit, the Sicilian Canoli I had definitely made up for the 700 km ride (with people who don't speak s common language with us...)",
-               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
+                "ObjectID": 4,
+                "PinColorID": 2,
+                "PinSizeID": 2,
+                "Title": "Sicilian Summer",
+                "Desc": "From Rome to Messina, I had the longest BlaBlaCar ride of my life in Italy... Albeit, the Sicilian Canoli I had definitely made up for the 700 km ride (with people who don't speak s common language with us...)",
+                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
             }
         },
         {
@@ -63,11 +67,12 @@
                 "coordinates": [12,48]
             },
             "properties": {
-              "ObjectID": 3,
-              "IconColorID": 2,
-               "Title": "Oktoberfest",
-               "Desc": "Simply put, drinking German beer - but in American sized portions.",
-               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
+                "ObjectID": 5,
+                "PinColorID": 2,
+                "PinSizeID": 2,
+                "Title": "Oktoberfest",
+                "Desc": "Simply put, drinking German beer - but in American sized portions.",
+                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
             }
         },
         {
@@ -77,11 +82,12 @@
                 "coordinates": [55,25]
             },
             "properties": {
-                "ObjectID": 4,
-              "IconColorID": 2,
-               "Title": "Winter in Dubai",
-               "Desc": "As it can be seen from the photograph below, I easily adapt to unfamiliar environments...",
-               "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"
+                "ObjectID": 6,
+                "PinColorID": 2,
+                "PinSizeID": 2,
+                "Title": "Winter in Dubai",
+                "Desc": "As it can be seen from the photograph below, I easily adapt to unfamiliar environments...",
+                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"
             }
         }]
     }
