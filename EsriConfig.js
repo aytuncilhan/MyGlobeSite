@@ -22,7 +22,7 @@ require([
       visualVariables: [
         {
           type: "color",
-          field: "IconColorID",
+          field: "PinColorID",
           stops: [
             {
               //Education
