@@ -42,7 +42,7 @@ require([
           ]
         },{
           type: "size",
-          field: "SizeID",
+          field: "PinSizeID",
           stops: [
             {
               value: 1,
