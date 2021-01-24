@@ -8,7 +8,7 @@
   <!--CSS Libraries-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css"/>
-  <link rel="stylesheet" href="https://aytuncilhan.github.io/style.css"/>
+  <link rel="stylesheet" href="style.css"/>
 
   <!--JS Libraries-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -59,11 +59,14 @@
   <!-- Add this script for successful implementation of typed.js  -->
   <script> 
   if ($(".text-slider").length == 1) { 
-        
-      var typed_strings =  "I am working as a Project Officer at NATO, I am into programming, I am 24 years old, I live in Brussels";
-
       var typed = new Typed(".text-slider", { 
-          strings: typed_strings.split(", "), 
+          strings: [
+          "I am working as an Information Management Officer at the NATO Headquarters in Brussels.",
+          "I am into Product Management, Digital Transformation, Data Analytics, Machine Learning, and Organizational Change Management.",
+          "I'm fluent in English and Turkish. J'améliore encore mon français mais j'ai besoin d'un peu plus de temps...",
+          "I am 24 years old.",
+          "I have a dog named Tarçın (Eng: cinnamon)",
+          "I'm enthusiastic about space security, space exploration, and some related <a href='https://google.com'>fun content</a>..."],
           typeSpeed: 50, 
           loop: true, 
           backDelay: 900, 
