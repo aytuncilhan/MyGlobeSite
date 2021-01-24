@@ -75,6 +75,8 @@ body {
 /* Left pane styling */
 #rightPane > h3{ 
   position: relative;
+  right: 1%;
+  top: 3%;
   text-align: left;
   color: rgba(190, 190, 190);
   right: 0px;
