@@ -4,14 +4,14 @@ body {
 }
 
 a:link, a:visited {
-  color: blue;
+  color: rgb(85, 153, 255);
   text-decoration: underline;
   text-align: center;
   display: inline-block;
 }
 
 a:hover, a:active {
-  background-color: rgb(107, 154, 207);
+  background-color: rgb(120, 190, 231);
 }
 
 #viewDiv {
