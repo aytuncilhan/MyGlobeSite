@@ -28,13 +28,11 @@
   -->
 
     <div id="viewDiv"></div>
-    <div id="leftPane">
-
+    <div id="typedPane">
       <h3>Hi! I'm Aytunc,</h3>
       <strong class="text-slider" style="color:rgb(145, 145, 145);"></strong> 
     </div>
-
-    <div id="rightPane">
+    <div id="togglePane">
       <h3>Toggle Options</h3>
       <div class="custom-control custom-switch">
         <input type="checkbox" class="custom-control-input" id="toggle-event3" checked='true'>
@@ -53,7 +51,7 @@
   <script>
       //Hide the panel when loading the page
       $('#leftPane').hide();
-      $('#rightPane').hide();
+      $('#togglePane').hide();
   </script>
 
   <!-- Add this script for successful implementation of typed.js  -->
@@ -68,10 +66,10 @@
           "I am 24 years old.",
           "I have a dog named <a href='https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Tarcin1.png'>Tarçın</a>.",
           "I'm enthusiastic about space security, space exploration, and some related <a href='https://www.reddit.com/user/nathanwpyle/posts/?sort=top'>fun content</a>..."],
-          typeSpeed: 40, 
+          typeSpeed: 35, 
           loop: true, 
-          backDelay: 1200, 
-          backSpeed: 20, 
+          backDelay: 1500, 
+          backSpeed: 15, 
       }); 
   } 
   </script> 
