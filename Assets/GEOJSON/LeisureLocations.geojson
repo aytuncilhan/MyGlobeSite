@@ -11,7 +11,7 @@
                 "PinColorID": 2,
                 "PinSizeID": 2,
                 "Title": "Palma de Mallorca",
-                "Desc": "A weekend well spent with Spanish beer and tapas.",
+                "Desc": "Sponteanous weekend trip with Spanish tapas, beer, and an amazing sunset view in the edge of the island.",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.png"
             }
         },
@@ -34,21 +34,6 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [23,41]
-            },
-            "properties": {
-                "ObjectID": 3,
-                "PinColorID": 2,
-                "PinSizeID": 2,
-                "Title": "Bansko Ski Festival",
-                "Desc": "Ideal tracks for both adrenaline addicts and beginners. The view from the summit is heavenly.",
-                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Ski.jpeg"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
                 "coordinates": [14,38]
             },
             "properties": {
@@ -56,7 +41,7 @@
                 "PinColorID": 2,
                 "PinSizeID": 2,
                 "Title": "Sicilian Summer",
-                "Desc": "From Rome to Messina, I had the longest BlaBlaCar ride of my life in Italy... Albeit, the Sicilian Canoli I had definitely made up for the 700 km ride (with people who don't speak s common language with us...)",
+                "Desc": "We had the longest ever BlaBlaCar ride from Rome to Messina - 700 km! But the Sicilian Canoli I had definitely made up for it...",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
             }
         },
@@ -86,7 +71,7 @@
                 "PinColorID": 2,
                 "PinSizeID": 2,
                 "Title": "Winter in Dubai",
-                "Desc": "As it can be seen from the photograph below, I easily adapt to unfamiliar environments...",
+                "Desc": "As it can be seen below, I adapt to change pretty easily...",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"
             }
         }]
