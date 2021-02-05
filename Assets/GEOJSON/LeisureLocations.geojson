@@ -49,21 +49,6 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [12,48]
-            },
-            "properties": {
-                "ObjectID": 4,
-                "PinColorID": 2,
-                "PinSizeID": 2,
-                "Title": "Oktoberfest",
-                "Desc": "Simply put, drinking German beer - but in American sized portions.",
-                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.jpeg"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
                 "coordinates": [23,41]
             },
             "properties": {
