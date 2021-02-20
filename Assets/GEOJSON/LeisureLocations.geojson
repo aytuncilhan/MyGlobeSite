@@ -19,21 +19,6 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [-77,40]
-            },
-            "properties": {
-                "ObjectID": 2,
-                "PinColorID": 2,
-                "PinSizeID": 2,
-                "Title": "Washington DC",
-                "Desc": "Trying to come up with something creative from my trip to DC...",
-                "url": ""
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
                 "coordinates": [14,38]
             },
             "properties": {
@@ -43,6 +28,21 @@
                 "Title": "Sicilian Summer",
                 "Desc": "We had the longest ever BlaBlaCar ride from Rome to Messina (700 km) with people whom neither we knew nor spoke a common language... But the <a href='https://www.ricardocuisine.com/en/recipes/6153-sicilian-cannoli'> Sicilian Cannoli</a> definitely made up for all of it!",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Sicily.jpg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77,40]
+            },
+            "properties": {
+                "ObjectID": 2,
+                "PinColorID": 2,
+                "PinSizeID": 2,
+                "Title": "Washington DC",
+                "Desc": "Trying to come up with something creative from my trip to DC...",
+                "url": ""
             }
         },
         {
