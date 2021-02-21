@@ -4,7 +4,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [2,50]
+                "coordinates": [2.0000000001,50.0000000001]
             },
             "properties": {
                 "ObjectID": 1,
@@ -19,7 +19,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [29,41]
+                "coordinates": [29.0000000001,41.0000000001]
             },
             "properties": {
                 "ObjectID": 2,
