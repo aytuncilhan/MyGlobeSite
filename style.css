@@ -40,14 +40,25 @@ div.esriPopupWrapper .zoomTo {
    -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
        animation: fadein 2s;
+
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  transition: all .6s;
 }
 
 #typedPane:hover{
-  background-color: rgba(18, 36, 61, 0.555);
+  background-color: rgba(8, 84, 134, 0.212);
 
-  transition: background-color .3s ease-out;
-  -moz-transition: background-color .3s ease-out;
-  -webkit-transition: background-color .3s ease-out;
+  margin-left:15px;
+  transform: scale(1.17);
+
+  transition: background-color .4s ease-out;
+  -moz-transition: background-color .4s ease-out;
+  -webkit-transition: background-color .4s ease-out;
+
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
 }
 
 /* Left pane styling */
@@ -91,6 +102,25 @@ div.esriPopupWrapper .zoomTo {
    -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
        animation: fadein 2s;
+
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  transition: all .6s;
+}
+
+#togglePane:hover{
+  background-color: rgba(8, 84, 134, 0.212);
+
+  margin-left:-15px;
+  transform: scale(1.17);
+
+  transition: background-color .4s ease-out;
+  -moz-transition: background-color .4s ease-out;
+  -webkit-transition: background-color .4s ease-out;
+
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
 }
 
 /* Left pane styling */
