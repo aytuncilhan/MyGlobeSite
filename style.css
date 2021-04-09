@@ -42,6 +42,14 @@ div.esriPopupWrapper .zoomTo {
        animation: fadein 2s;
 }
 
+#typedPane:hover{
+  background-color: rgba(18, 36, 61, 0.555);
+
+  transition: background-color .3s ease-out;
+  -moz-transition: background-color .3s ease-out;
+  -webkit-transition: background-color .3s ease-out;
+}
+
 /* Left pane styling */
 #typedPane > h3{ 
   position: relative;
