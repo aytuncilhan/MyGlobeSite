@@ -4,14 +4,14 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [2,50]
+                "coordinates": [1.9999999999999662,49.999999999999154]
             },
             "properties": {
                 "ObjectID": 1,
                 "PinColorID": 3,
                 "PinSizeID": 1,
                 "Title": "NATO Headquarters",                                                                                                                                                                                       
-                "Desc": "My six months internship program at the NATO Headquarters has evolved into a longer journey which I enjoy every second of it! Here, having spent more than 2 years, I had the chance to work on unique software projects, with amazing people embracing the diversity in this multinational civil-military joint environment. <br> Currently, as the project lead on a digital transformation project at the second largest division in the Headquarters, I develop the high-level business strategy, engage with stakeholders, and ensure that we deliver the highest-quality product.",
+                "Desc": "My six months internship program at the NATO Headquarters has evolved into a longer journey which I still enjoy every second of it! Here, having been here more than 2 years now, I had the chance to work on unique software projects, with amazing people embracing the diversity in this multinational civil-military joint environment. <br> Currently, as the Project Lead on a business improvement and digital transformation project at the second largest division in the Headquarters, I develop the high-level business strategy, manage stakeholders to ensure coherence, collaborate with the project team on the implementation, and ensure organizational change is well integrated in a sustaible manner.",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/WithSuit.jpeg"                                                                                                                       
             }
         },
@@ -26,7 +26,7 @@
                 "PinColorID": 3,
                 "PinSizeID": 1,
                 "Title": "''It doesn't take an army! It takes a few good people.''",
-                "Desc": "This was my former boss' motto and the exact definition of my team at <a href='https://www.linkedin.com/company/solvoyo'>Solvoyo</a>. Being the COO of a high-tech start-up, Nilufer has always been a great mentor and source of inspiration for me. Not only she has always encouraged me to push my limits and grow in multiple domains, but also has put her trust in me and stood by me just like a true leader. Albeit, it's ironic to join NATO given the  ''It does not take an <b>army</b>!'' Maybe it's true though, instead of one, it takes <a href='https://www.nato.int/cps/en/natohq/nato_countries.htm'>thirty of them</a>!",
+                "Desc": "This was my former boss' motto and the exact definition of my team at <a href='https://www.linkedin.com/company/solvoyo'>Solvoyo</a>. Being the COO of a high-tech start-up, Nilufer has always been a great mentor and source of inspiration for me. Not only she has always encouraged me to push my limits and grow in multiple domains, but also has put her trust in me and stood by me just like a true leader. <br/> After joining NTAO, I have updated the good old  'It does not take an <b>army</b>...' motto though. Still, I agree it does not take <b>an</b> army, but it takes <a href='https://www.nato.int/cps/en/natohq/nato_countries.htm'>thirty of them</a>!",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/IstView.jpeg"
             }
         }]
