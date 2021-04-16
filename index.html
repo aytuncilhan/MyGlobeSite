@@ -56,6 +56,10 @@
 
   <!-- Add this script for successful implementation of typed.js  -->
   <script> 
+  $("#typedPane").mouseenter(function(){typed.stop()}); 
+  $("#typedPane").mouseleave(function(){typed.start()}); //Better way is to use toggle() as below.
+  //$("#typedPane").hover(function(){ typed.toggle() });
+
   if ($(".text-slider").length == 1) { 
       var typed = new Typed(".text-slider", { 
           strings: [
@@ -69,12 +73,6 @@
           backDelay: 1500, 
           backSpeed: 15, 
       }); 
-
-    //$("#typedPane").mouseenter(function(){typed.stop()}); 
-    //$("#typedPane").mouseleave(function(){typed.start()}); //Better way is to use toggle() as below.
-    $("#typedPane").hover(function(){ typed.toggle() });
-
-
   } 
   </script> 
 
