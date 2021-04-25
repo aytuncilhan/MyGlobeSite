@@ -20,7 +20,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [6,51]
+                "coordinates": [7,51]
             },
             "properties": {
                 "ObjectID": 2,
