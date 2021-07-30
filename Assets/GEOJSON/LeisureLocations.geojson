@@ -49,21 +49,6 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [23,41]
-            },
-            "properties": {
-                "ObjectID": 4,
-                "PinColorID": 2,
-                "PinSizeID": 2,
-                "Title": "Bansko (Pirin Mountains)",
-                "Desc": "I've started skiing at the age of 9 and fell in love with it. Next step, my goal is to learn how to do the acrobatic moves - but till my next ski trip, I'll just stick with the <a href='https://youtu.be/7giVEiH_LlU'>YouTube tutorial</a>.",
-                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/BanskoSki.jpg"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
                 "coordinates": [55,25]
             },
             "properties": {
@@ -71,7 +56,7 @@
                 "PinColorID": 2,
                 "PinSizeID": 2,
                 "Title": "''Winter in Dubai''",
-                "Desc": "As it can be seen below, I adapt to change pretty easily... By the way, the average winter daytime temperature in Dubai <a href='https://en.wikipedia.org/wiki/Climate_of_Dubai#:~:text=During%20the%20winter%20season%20it,relatively%20cool%20throughout%20the%20year.'>is</a> 24 <span>&#8451;</span>.",
+                "Desc": "This photo was taken in February. Fun fact: The <a href='https://en.wikipedia.org/wiki/Climate_of_Dubai#:~:text=During%20the%20winter%20season%20it,relatively%20cool%20throughout%20the%20year.'>average winter daytime temperature in Dubai</a> is 24 <span>&#8451;</span>.",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"
             }
         }]
