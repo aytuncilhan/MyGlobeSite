@@ -11,7 +11,7 @@
                 "PinColorID": 2,
                 "PinSizeID": 2,
                 "Title": "Palma de Mallorca",
-                "Desc": "Sponteanous weekend trip with Spanish tapas, cold beer, and warm sun in the sky.",
+                "Desc": "Sponteanous weekend getaway with Spanish tapas, warm sun, and cold beer.",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Mallorca.png"
             }
         },
@@ -26,7 +26,7 @@
                 "PinColorID": 2,
                 "PinSizeID": 2,
                 "Title": "Washington DC",
-                "Desc": "Trying to come up with something creative from my trip to DC...",
+                "Desc": "Work in progress for my trip to Washingotn, DC...",
                 "url": ""
             }
         },
@@ -41,7 +41,7 @@
                 "PinColorID": 2,
                 "PinSizeID": 2,
                 "Title": "Sicilian Summer",
-                "Desc": "We had the longest ever BlaBlaCar ride from Rome to Messina (700 km) with people whom neither we knew nor spoke a common language... But the <a href='https://www.ricardocuisine.com/en/recipes/6153-sicilian-cannoli'> Sicilian Cannoli</a> definitely made up for all of it!",
+                "Desc": "Had the longest BlaBlaCar ride from Rome to Sicily with people we neither new nor spoke a common language. But the scenery and the <a href='https://www.ricardocuisine.com/en/recipes/6153-sicilian-cannoli'> Sicilian Cannoli</a> definitely made up for all of it.",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Sicily.jpg"
             }
         },
@@ -56,7 +56,7 @@
                 "PinColorID": 2,
                 "PinSizeID": 2,
                 "Title": "Oktoberfest",
-                "Desc": "Lots of beer and pretzel.",
+                "Desc": "",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Oktoberfest.jpg"
             }
         },
@@ -71,7 +71,7 @@
                 "PinColorID": 2,
                 "PinSizeID": 2,
                 "Title": "''Winter in Dubai''",
-                "Desc": "This photo was taken in February. Fun fact: The <a href='https://en.wikipedia.org/wiki/Climate_of_Dubai#:~:text=During%20the%20winter%20season%20it,relatively%20cool%20throughout%20the%20year.'>average winter daytime temperature in Dubai</a> is 24 <span>&#8451;</span>.",
+                "Desc": "This photo was taken in February. Fun fact: The <a href='https://en.wikipedia.org/wiki/Climate_of_Dubai#:~:text=During%20the%20winter%20season%20it,relatively%20cool%20throughout%20the%20year.'>average winter daytime temperature in Dubai</a> is 25 <span>&#8451;</span>.",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncDubai.jpg"
             }
         }]
