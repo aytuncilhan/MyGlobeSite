@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100%;
+    background-color: rgb(24, 29, 34);
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
