@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aytunc Ilhan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--CSS Libraries-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="classicmode.css"/>
+
+  <!--JS Libraries-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="lib/typed.js"></script>
+  <script src="lib/typed.min.js"></script>
+  
+</head>
+
+<body>
+    <div class="row">
+        <div class="col"> </div>
+        <div class="col"">
+            <h1> Welcome to Classical Mode</h1>
+            <h2>I'll be you're guide...</h2>
+            <h2>But never trust strangers :)</h2>
+        </div>
+        <div class="col"> </div>
+      </div>
+
+</body>
+
+<script>
+    
+    window.transitionToPage = function(href) {
+        document.querySelector('body').style.opacity = 0
+        setTimeout(function() { 
+            window.location.href = href
+        }, 500)
+    }
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
+})
+
+</script>
+
+</html>

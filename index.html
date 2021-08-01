@@ -48,11 +48,15 @@
       </div>
     </div>
 
+
+
   <script>
       //Hide the panel when loading the page
       $('#leftPane').hide();
       $('#togglePane').hide();
   </script>
+
+
 
   <!-- Add this script for successful implementation of typed.js  -->
   <script> 
@@ -73,6 +77,17 @@
           backSpeed: 15, 
       }); 
   } 
+
+  window.transitionToPage = function(href) {
+        document.querySelector('body').style.opacity = 0
+        setTimeout(function() { 
+            window.location.href = href
+        }, 500)
+    }
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
+})
   </script> 
 
 </body>
