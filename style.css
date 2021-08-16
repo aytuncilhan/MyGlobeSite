@@ -1,8 +1,6 @@
 html,
 body {
     height: 100%;
-    opacity: 0;
-    transition: opacity .5s;
 }
 
 a:link, a:visited {

@@ -34,6 +34,7 @@
     </div>
     <div id="togglePane">
       <h3>Legend</h3>
+      <span onclick="transitionToPage('classicmode.html')">-></span>
       <div class="custom-control custom-switch">
         <input type="checkbox" class="custom-control-input" id="toggle-event3" checked='true'>
         <label class="custom-control-label" for="toggle-event3" style="color: #E8666C">Education</label>
@@ -48,12 +49,21 @@
       </div>
     </div>
 
-
-
   <script>
       //Hide the panel when loading the page
       $('#leftPane').hide();
       $('#togglePane').hide();
+
+    window.transitionToPage = function(href) {
+          document.querySelector('body').style.opacity = 0
+          setTimeout(function() { 
+              window.location.href = href
+          }, 500)
+      }
+
+    document.addEventListener('DOMContentLoaded', function(event) {
+        document.querySelector('body').style.opacity = 1
+    })
   </script>
 
 
@@ -77,17 +87,6 @@
           backSpeed: 15, 
       }); 
   } 
-
-  window.transitionToPage = function(href) {
-        document.querySelector('body').style.opacity = 0
-        setTimeout(function() { 
-            window.location.href = href
-        }, 500)
-    }
-
-document.addEventListener('DOMContentLoaded', function(event) {
-    document.querySelector('body').style.opacity = 1
-})
   </script> 
 
 </body>
