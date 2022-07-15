@@ -15,21 +15,6 @@
                 "Desc": "Sleepless nights in labs, difficult exams, countless presentations, and amazing projects... Challenging, yet beautiful 4 years studying Electrical and Electronics Engineering with friends (and future colleagues) that I couldn't be more grateful to have for! \n\n Below is the product of many sleepless nights - our senior year Industrial design project funded by the Scientific and Technological Research Council of Turkey. It's the hub of the signal processing app for acoustical room correction.",
                 "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/AytuncGrad2.jpg"
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [8,50]
-            },
-            "properties": {
-                "ObjectID": 2,
-                "PinColorID": 1,
-                "PinSizeID": 1,
-                "Title": "RWTH Aachen University",
-                "Desc": "Work in progress to obtain a Master of Science degree in Electrical Engineering, Information Technology and Computer Engineering (majoring in Computer Engineering). I hope to add more content here with time!</b>",
-                "url": "https://raw.githubusercontent.com/aytuncilhan/aytuncilhan.github.io/main/Assets/Images/Aachen.jpeg"
-            }
         }]
     }
     
