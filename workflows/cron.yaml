@@ -1,0 +1,21 @@
+name: Cron Job
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.x"  # Replace with your desired Python version
+
+    - name: Run script
+      run: python crawlAds.py  # Replace with the command to run your script
