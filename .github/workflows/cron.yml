@@ -2,7 +2,7 @@ name: Cron Job
 
 on:
   schedule:
-    - cron: "0 */8 * * *"
+    - cron: "*/1 * * * *"
 
 jobs:
   build:
@@ -18,4 +18,4 @@ jobs:
         python-version: "3.11"  # Replace with your desired Python version
 
     - name: Run script
-      run: python crawlAds.py  # Replace with the command to run your script
+      run: python Assets/crawlAds.py  # Replace with the command to run your script
