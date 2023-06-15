@@ -17,6 +17,9 @@ jobs:
         with:
           python-version: '3.11.4' # Replace 'x' with your desired Python version
 
+      - name: Install dependencies
+        run: pip install -r Assets/Scripts/requirements.txt
+
       - name: Run Python script
         env:
           ACCESS_TOKEN: ${{ secrets.MY_ACCESS_TOKEN }} # Referencing the secret
