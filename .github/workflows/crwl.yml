@@ -1,0 +1,23 @@
+name: Scheduled Python Code Deployment
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9.9' # Replace 'x' with your desired Python version
+
+      - name: Run Python script
+        env:
+          ACCESS_TOKEN: ${{ secrets.MY_ACCESS_TOKEN }} # Referencing the secret
+        run: python Assets/Scripts/crwl.py
