@@ -152,7 +152,7 @@ repo_owner = 'aytuncilhan'
 repo_name = 'Personal-Website'
 file_path = 'ads.html'
 branch_name = 'main'
-access_token = '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'
+access_token = ACCESS_TOKEN
 
 # Generate HTML table
 table_html = generate_fancy_html_table( publishDate, title, grade, submitDate )
