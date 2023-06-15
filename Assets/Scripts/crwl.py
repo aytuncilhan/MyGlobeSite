@@ -27,7 +27,7 @@ def generate_fancy_html_table(array1, array2, array3, array4):
             }}
             .last-update {{
                 position: absolute;
-                bottom: 10px;
+                top: 10px;
                 right: 10px;
                 font-size: 12px;
                 font-family: "Trebuchet MS", Arial, sans-serif;
