@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from tabulate import tabulate
 import base64
 from datetime import date
+import os
 
 def generate_fancy_html_table(array1, array2, array3, array4):
     html = f'''
