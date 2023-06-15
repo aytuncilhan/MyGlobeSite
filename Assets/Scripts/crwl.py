@@ -35,6 +35,7 @@ def generate_fancy_html_table(array1, array2, array3, array4):
         </style>
     </head>
     <body>
+        <span id="last-update" class="last-update"></span>
         <table>
             <thead>
                 <tr>
