@@ -24,6 +24,13 @@ def generate_fancy_html_table(array1, array2, array3, array4):
             tr:nth-child(even) {{
                 background-color: #dddddd;
             }}
+            .last-update {{
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 12px;
+                color: #777777;
+            }}
         </style>
     </head>
     <body>
@@ -52,6 +59,21 @@ def generate_fancy_html_table(array1, array2, array3, array4):
     html += '''
             </tbody>
         </table>
+        <script>
+            // Fetch the last commit date from GitHub API
+            fetch('https://api.github.com/repos/aytuncilhan/Personal-Website/commits')
+                .then(response => response.json())
+                .then(data => {
+                    const lastCommitDate = new Date(data[0].commit.committer.date);
+                    const formattedDate = lastCommitDate.toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    });
+                    document.getElementById('last-update').textContent = `Last Updated: ${formattedDate}`;
+                })
+                .catch(error => console.error(error));
+        </script>
     </body>
     </html>
     '''
