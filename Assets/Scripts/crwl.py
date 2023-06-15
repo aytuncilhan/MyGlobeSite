@@ -27,15 +27,16 @@ def generate_fancy_html_table(array1, array2, array3, array4):
             }}
             .last-update {{
                 position: absolute;
-                top: 10px;
+                bottom: 10px;
                 right: 10px;
                 font-size: 12px;
+                font-family: "Trebuchet MS", Arial, sans-serif;
                 color: #777777;
             }}
         </style>
     </head>
     <body>
-        <span id="last-update" class="last-update"></span>
+        
         <table>
             <thead>
                 <tr>
@@ -61,6 +62,7 @@ def generate_fancy_html_table(array1, array2, array3, array4):
     html += '''
             </tbody>
         </table>
+        <span id="last-update" class="last-update"></span>
         <script>
             // Fetch the last commit date from GitHub API
             fetch('https://api.github.com/repos/aytuncilhan/Personal-Website/commits')
@@ -70,7 +72,9 @@ def generate_fancy_html_table(array1, array2, array3, array4):
                     const formattedDate = lastCommitDate.toLocaleDateString('en-US', {
                         year: 'numeric',
                         month: 'long',
-                        day: 'numeric'
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: 'numeric'
                     });
                     document.getElementById('last-update').textContent = `Last Updated: ${formattedDate}`;
                 })
