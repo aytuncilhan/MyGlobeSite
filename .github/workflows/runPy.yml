@@ -2,7 +2,7 @@ name: Scheduled Python Code Deployment
 
 on:
   schedule:
-    - cron: "0 7,13,18,23 * * *"
+    - cron: "0 */2 * * *"
 
 jobs:
   deploy:
