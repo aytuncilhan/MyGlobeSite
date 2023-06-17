@@ -3,3 +3,6 @@
 .env
 job.py
 Assets/JobsLib
+jobs.json
+JobsLib
+JobsLib/jobs.json
