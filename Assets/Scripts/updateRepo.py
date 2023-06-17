@@ -1,6 +1,7 @@
 import requests
 import base64
 import json
+from job import Job
 
 def writeContent(repo_owner, repo_name, access_token, branch_name, encoded_html, jobs):
     #########################################
@@ -88,3 +89,41 @@ def writeContent(repo_owner, repo_name, access_token, branch_name, encoded_html,
         print(f"Error: {response.json()['message']}")
 
     return None
+
+def readContent(repo_owner, repo_name, access_token, file_path):
+
+    exisitng_jobs = []
+
+    url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}'
+
+    # Make the API request to create or update the file
+    response = requests.get(url, headers={"Authorization": f"Bearer {access_token}"})
+
+    # Check the response
+    if response.status_code == 200:
+        # File content retrieved successfully
+        file_details = response.json()
+        content = file_details['content']
+
+        # Decode the Base64-encoded content
+        decoded_content = base64.b64decode(content).decode()
+
+        # Process the JSON data
+        json_data = json.loads(decoded_content)
+
+        # Process the JSON data
+        for job in json_data:
+            # Create an instance of the Job class
+            job_instance = Job()
+
+            job_instance.id = job["id"]
+            job_instance.publish_date = job["publish_date"]
+            job_instance.title = job["title"]
+            job_instance.grade = job["grade"]
+            job_instance.deadline = job["deadline"]
+
+            exisitng_jobs.append(job_instance)
+    else:
+        print(f"Error: {response.json()['message']}")
+    
+    return exisitng_jobs
