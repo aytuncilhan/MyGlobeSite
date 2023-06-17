@@ -91,6 +91,53 @@ def generate_fancy_html_table(array1, array2, array3, array4):
 
     return html
 
+# GitHub repository details
+repo_owner = 'aytuncilhan'
+repo_name = 'Personal-Website'
+branch_name = 'main'
+load_dotenv()
+access_token = os.getenv("ACCESS_TOKEN")
+
+### RETRIEVE ALREADY EXISTING JOBS
+
+exisitng_jobs = []
+
+file_path = 'Assets/JobsLib/jobs.json'
+url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}'
+
+# Make the API request to create or update the file
+response = requests.get(url, headers={"Authorization": f"Bearer {access_token}"})
+
+# Check the response
+if response.status_code == 200:
+    # File content retrieved successfully
+    file_details = response.json()
+    content = file_details['content']
+
+    # Decode the Base64-encoded content
+    decoded_content = base64.b64decode(content).decode()
+
+    # Process the JSON data
+    json_data = json.loads(decoded_content)
+
+    # Process the JSON data
+    for job in json_data:
+        # Create an instance of the Job class
+        job_instance = Job()
+
+        job_instance.id = job["id"]
+        job_instance.publish_date = job["publish_date"]
+        job_instance.title = job["title"]
+        job_instance.grade = job["grade"]
+        job_instance.deadline = job["deadline"]
+
+        exisitng_jobs.append(job_instance)
+else:
+    print(f"Error: {response.json()['message']}")
+
+
+# Crawl Job Website
+
 url = 'https://nato.taleo.net/careersection/2/jobsearch.ftl?lang=en'
 response = requests.get(url)
 html_content = response.text
@@ -181,21 +228,19 @@ for i, item in items_array_enum:
 
 ## UPDATE GITHUB WEBSITE ##
 
-# GitHub repository details
-repo_owner = 'aytuncilhan'
-repo_name = 'Personal-Website'
-file_path = 'ads.html'
-branch_name = 'main'
-load_dotenv()
-access_token = os.getenv("ACCESS_TOKEN")
-
 # Generate HTML table
 table_html = generate_fancy_html_table( publishDate, title, grade, deadline )
 
 # Encode the content to Base64
 encoded_content = base64.b64encode(table_html.encode()).decode()
 
+
+#########################################
+## 1 -- WRITE THE PYTHON FILE INTO GITHUB
+#########################################
+
 # Construct the API endpoint
+file_path = 'ads.html'
 url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}"
 
 # Set the request headers
@@ -210,10 +255,6 @@ file_data = response.json()
 
 # Extract the current sha hash
 current_sha = file_data["sha"]
-
-#########################################
-## 1 -- WRITE THE PYTHON FILE INTO GITHUB
-#########################################
 
 # Prepare API request parameters
 api_url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}'
@@ -238,7 +279,7 @@ else:
 ## 2 -- WRITE THE JSON FILE INTO GITHUB
 #######################################
 
-# Iterate over the jobs list
+# Iterate over the jobs list to convert date into JSON serializable format
 for job in jobs:
     # Convert the date field to a JSON serializable format
     job.publish_date = job.publish_date.isoformat()
@@ -249,7 +290,7 @@ json_string = json.dumps(job_data)
 # Encode the content to Base64
 encoded_content = base64.b64encode(json_string.encode()).decode()
 
-file_path = 'Personal-Website/Assets/JobsLib/jobs.json'
+file_path = 'Assets/JobsLib/jobs.json'
 url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}'
 
 # Check if the file already exists to get the 'sha' parameter
@@ -274,6 +315,6 @@ response = requests.put(url, json=payload, headers={"Authorization": f"Bearer {a
 
 # Check the response
 if response.status_code == 200 or response.status_code == 201:
-    print("jobs JSON file created/updated successfully.")
+    print("The \"jobs\" JSON file was created/updated successfully.")
 else:
     print(f"Error: {response.json()['message']}")
