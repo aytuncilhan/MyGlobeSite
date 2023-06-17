@@ -14,3 +14,11 @@ class Job:
     #    self.grade = grade
     #    self.deadline = deadline
 
+    def __eq__(self, other):
+        if isinstance(other, Job):
+            return (
+                self.id == other.id and
+                self.title == other.title and
+                self.grade == other.grade
+            )
+
