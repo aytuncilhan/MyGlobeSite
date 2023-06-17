@@ -4,6 +4,7 @@ from tabulate import tabulate
 import base64
 from datetime import date
 import os
+from dotenv import load_dotenv
 
 def generate_fancy_html_table(array1, array2, array3, array4):
     html = f'''
@@ -158,6 +159,7 @@ repo_owner = 'aytuncilhan'
 repo_name = 'Personal-Website'
 file_path = 'ads.html'
 branch_name = 'main'
+load_dotenv()
 access_token = os.getenv("ACCESS_TOKEN")
 
 # Generate HTML table
