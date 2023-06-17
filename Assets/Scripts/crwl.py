@@ -89,3 +89,5 @@ table_html = generate_fancy_html_table( publishDate, title, grade, deadline )
 encoded_html = base64.b64encode(table_html.encode()).decode()
 
 writeContent(repo_owner, repo_name, access_token, branch_name, encoded_html, jobs)
+
+## END OF CODE
