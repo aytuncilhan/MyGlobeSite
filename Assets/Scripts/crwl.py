@@ -5,6 +5,7 @@ import base64
 from datetime import date
 import os
 from dotenv import load_dotenv
+from Job import job
 
 def generate_fancy_html_table(array1, array2, array3, array4):
     html = f'''
@@ -126,7 +127,7 @@ items_array = final_str.split('\',\'')
 items_array_enum = enumerate(items_array, 1)
 
 publishDate = []
-submitDate = []
+deadline = []
 grade = []
 title = []
 
@@ -137,7 +138,7 @@ for i, item in items_array_enum:
     if i % 47 != 0:
         string_without_quotes = item.replace("'", "")
         if relativeIndex == 21:
-            submitDate.append(string_without_quotes)
+            deadline.append(string_without_quotes)
             publishDate.append(date.today())
         if relativeIndex == 23:
             grade.append(string_without_quotes)
