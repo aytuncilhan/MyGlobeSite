@@ -8,6 +8,7 @@ import re
 from dotenv import load_dotenv
 from job import Job
 from datetime import date
+import json
 
 def generate_fancy_html_table(array1, array2, array3, array4):
     html = f'''
@@ -210,6 +211,10 @@ file_data = response.json()
 # Extract the current sha hash
 current_sha = file_data["sha"]
 
+#########################################
+## 1 -- WRITE THE PYTHON FILE INTO GITHUB
+#########################################
+
 # Prepare API request parameters
 api_url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}'
 headers = {'Authorization': f'Bearer {access_token}'}
@@ -228,3 +233,47 @@ if response.status_code == 200:
 else:
     print(f'Error writing table.html to GitHub repository. Status code: {response.status_code}')
     print(response.text)
+
+#######################################
+## 2 -- WRITE THE JSON FILE INTO GITHUB
+#######################################
+
+# Iterate over the jobs list
+for job in jobs:
+    # Convert the date field to a JSON serializable format
+    job.publish_date = job.publish_date.isoformat()
+
+job_data = [job.__dict__ for job in jobs]
+json_string = json.dumps(job_data)
+
+# Encode the content to Base64
+encoded_content = base64.b64encode(json_string.encode()).decode()
+
+file_path = 'Personal-Website/Assets/JobsLib/jobs.json'
+url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}'
+
+# Check if the file already exists to get the 'sha' parameter
+response = requests.get(url, headers={"Authorization": f"Bearer {access_token}"})
+if response.status_code == 200:
+    # File exists, get the 'sha' parameter
+    file_details = response.json()
+    sha = file_details['sha']
+else:
+    # File doesn't exist, 'sha' parameter will be empty
+    sha = ""
+
+# Request payload
+payload = {
+    "message": "Update JSON file",
+    "content": encoded_content,
+    "sha": sha
+}
+
+# Make the API request to create or update the file
+response = requests.put(url, json=payload, headers={"Authorization": f"Bearer {access_token}"})
+
+# Check the response
+if response.status_code == 200 or response.status_code == 201:
+    print("jobs JSON file created/updated successfully.")
+else:
+    print(f"Error: {response.json()['message']}")
