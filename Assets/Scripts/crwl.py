@@ -58,8 +58,7 @@ if response.status_code == 200:
 else:
     print(f"Error: {response.json()['message']}")
 
-
-# Crawl Job Website
+# Crawl the Job Website
 
 url = 'https://nato.taleo.net/careersection/2/jobsearch.ftl?lang=en'
 response = requests.get(url)
