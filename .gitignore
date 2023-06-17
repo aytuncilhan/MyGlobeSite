@@ -1,8 +1,9 @@
 .DS_Store
 .vscode
 .env
+jobs.json
 job.py
 Assets/JobsLib
-jobs.json
+Assets/JobsLib/jobs.json
 JobsLib
 JobsLib/jobs.json
