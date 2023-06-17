@@ -2,4 +2,4 @@
 .vscode
 .env
 job.py
-jobs.json
+Assets/JobsLib
