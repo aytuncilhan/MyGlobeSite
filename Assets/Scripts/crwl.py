@@ -5,7 +5,7 @@ import base64
 from datetime import date
 import os
 from dotenv import load_dotenv
-from Job import job
+import Job
 
 def generate_fancy_html_table(array1, array2, array3, array4):
     html = f'''
