@@ -3,7 +3,7 @@ import re
 from job import Job
 from datetime import date
 
-def scrape_multiple_pages(soup):
+def scrapePage(soup):
     # Find the script tag containing the JavaScript code
     script_tags = soup.find_all('script', text=re.compile(r'api\.fillInterface'))
 
