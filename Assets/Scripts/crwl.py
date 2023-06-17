@@ -11,52 +11,19 @@ from datetime import date
 import json
 from parseSoup import scrape_multiple_pages
 from generateTable import generate_fancy_html_table
-from updateRepo import writeContent
+from updateRepo import writeContent, readContent
 
 
-# GitHub repository details
+# Configure GitHub Repo Credentials
 repo_owner = 'aytuncilhan'
 repo_name = 'Personal-Website'
 branch_name = 'main'
 load_dotenv()
 access_token = os.getenv("ACCESS_TOKEN")
 
-### RETRIEVE ALREADY EXISTING JOBS
-
-exisitng_jobs = []
-
+# Retrieve already existing jobs
 file_path = 'Assets/JobsLib/jobs.json'
-url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}'
-
-# Make the API request to create or update the file
-response = requests.get(url, headers={"Authorization": f"Bearer {access_token}"})
-
-# Check the response
-if response.status_code == 200:
-    # File content retrieved successfully
-    file_details = response.json()
-    content = file_details['content']
-
-    # Decode the Base64-encoded content
-    decoded_content = base64.b64decode(content).decode()
-
-    # Process the JSON data
-    json_data = json.loads(decoded_content)
-
-    # Process the JSON data
-    for job in json_data:
-        # Create an instance of the Job class
-        job_instance = Job()
-
-        job_instance.id = job["id"]
-        job_instance.publish_date = job["publish_date"]
-        job_instance.title = job["title"]
-        job_instance.grade = job["grade"]
-        job_instance.deadline = job["deadline"]
-
-        exisitng_jobs.append(job_instance)
-else:
-    print(f"Error: {response.json()['message']}")
+exisitng_jobs = readContent(repo_owner, repo_name, access_token, branch_name, file_path)
 
 # Crawl the Job Website
 
