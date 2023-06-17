@@ -2,3 +2,4 @@
 .vscode
 .env
 job.py
+jobs.json
