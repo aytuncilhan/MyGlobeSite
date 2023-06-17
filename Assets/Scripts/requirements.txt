@@ -4,3 +4,4 @@ tabulate
 python-dotenv
 datetime
 re
+json
