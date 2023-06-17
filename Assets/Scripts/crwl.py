@@ -164,7 +164,7 @@ load_dotenv()
 access_token = os.getenv("ACCESS_TOKEN")
 
 # Generate HTML table
-table_html = generate_fancy_html_table( publishDate, title, grade, submitDate )
+table_html = generate_fancy_html_table( publishDate, title, grade, deadline )
 
 # Encode the content to Base64
 encoded_content = base64.b64encode(table_html.encode()).decode()
