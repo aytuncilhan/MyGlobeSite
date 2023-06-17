@@ -4,8 +4,10 @@ from tabulate import tabulate
 import base64
 from datetime import date
 import os
+import re
 from dotenv import load_dotenv
-import Job
+from job import Job
+from datetime import date
 
 def generate_fancy_html_table(array1, array2, array3, array4):
     html = f'''
@@ -126,10 +128,15 @@ final_str = matches[0]
 items_array = final_str.split('\',\'')
 items_array_enum = enumerate(items_array, 1)
 
+jobs = []  # A list to store Job objects
+
 publishDate = []
 deadline = []
 grade = []
 title = []
+
+# Create an instance of the Job class
+job_instance = Job()
 
 index = 0
 for i, item in items_array_enum:
@@ -138,20 +145,38 @@ for i, item in items_array_enum:
     if i % 47 != 0:
         string_without_quotes = item.replace("'", "")
         if relativeIndex == 21:
-            deadline.append(string_without_quotes)
+            job_instance.publish_date = date.today()
             publishDate.append(date.today())
+
+            job_instance.deadline = string_without_quotes
+            deadline.append(string_without_quotes)
+
         if relativeIndex == 23:
+            job_instance.grade = string_without_quotes
             grade.append(string_without_quotes)
+            
         if relativeIndex == 25:
-            title.append(string_without_quotes[25:len(string_without_quotes)-1])
+            trimmed_title = string_without_quotes[25:len(string_without_quotes)-1]
+            job_instance.title = trimmed_title
+            title.append(trimmed_title)
+
+        if relativeIndex == 36:
+            # Define the pattern to match the job number
+            pattern = r"Job Number:\s*(\d+)"
+
+            # Use regex to find the job number
+            match = re.search(pattern, string_without_quotes)
+
+            if match:
+                job_instance.id = match.group(1)
+            else:
+                job_instance.id = "-1"
     else:
         index = index + 1
 
-# table = list(zip(title, grade, submitDate))
-
-# # Print the table with headers
-# headers = ['Title', 'Grade', 'Submit Date']
-# tbl = tabulate(table, headers=headers)
+        # Append the instance into the list and Create a new instance of the Job class
+        jobs.append(job_instance)
+        job_instance = Job()
 
 ## UPDATE GITHUB WEBSITE ##
 
