@@ -2,6 +2,7 @@ from datetime import date
 import re
 from job import Job
 from datetime import date
+from datetime import datetime, timedelta
 
 def scrapePage(soup):
     # Find the script tag containing the JavaScript code
@@ -44,7 +45,15 @@ def scrapePage(soup):
             if relativeIndex == 21:
                 job_instance.publish_date = date.today()
 
-                job_instance.deadline = string_without_quotes
+                # Convert the original string to a datetime object
+                original_format = '%d-%b-%Y, %I:%M:%S %p'
+                original_datetime = datetime.strptime(string_without_quotes, original_format)
+
+                # Subtract 25 hours from the datetime object
+                subtracted_datetime = original_datetime - timedelta(hours=25)
+
+                # Convert the subtracted datetime back to a string
+                job_instance.deadline = subtracted_datetime.strftime(original_format)
 
             if relativeIndex == 23:
                 job_instance.grade = string_without_quotes
