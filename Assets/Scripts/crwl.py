@@ -18,20 +18,28 @@ access_token = os.getenv("ACCESS_TOKEN")
 file_path = 'Assets/JobsLib/jobs.json'
 exisitng_jobs = readContent(repo_owner, repo_name, access_token, file_path)
 
+existing_job_ids = []
+for j in exisitng_jobs:
+    existing_job_ids.append(j.id)
+
 # Crawl the Job Website
 url = 'https://nato.taleo.net/careersection/2/jobsearch.ftl?lang=en'
 response = requests.get(url)
 html_content = response.text
 soup = BeautifulSoup(html_content, 'html.parser')
 
+# Get jobs
 retrieved_jobs = scrapePage(soup)
+
+# Omit the already existing jobs (read from JSON)
+newly_added_jobs = retrieved_jobs ## [job for job in retrieved_jobs if job.id not in existing_job_ids]
 
 # Create the arrays for the HTML table
 publishDate = []
 deadline = []
 grade = []
 title = []
-for job in retrieved_jobs:
+for job in newly_added_jobs:
     publishDate.append(job.publish_date)
     title.append(job.title)
     grade.append(job.grade)

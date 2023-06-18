@@ -1,44 +1,36 @@
-import requests
-from bs4 import BeautifulSoup
-from tabulate import tabulate
-import base64
-from datetime import date
-import os
-import re
-from dotenv import load_dotenv
-from job import Job
-from datetime import date
-import json
-import parseSoup
+from datetime import datetime, timedelta
 
 def generate_fancy_html_table(array1, array2, array3, array4):
-    html = f'''
+    html = '''
     <html>
     <head>
         <style>
-            table {{
+            table {
                 border-collapse: collapse;
                 width: 100%;
                 font-family: Arial, sans-serif;
-            }}
-            th, td {{
+            }
+            th, td {
                 text-align: left;
                 padding: 8px;
-            }}
-            th {{
+            }
+            th {
                 background-color: #f2f2f2;
-            }}
-            tr:nth-child(even) {{
+            }
+            /* tr:nth-child(even) {
                 background-color: #dddddd;
-            }}
-            .last-update {{
+            } */
+            .last-update {
                 position: absolute;
                 top: 10px;
                 right: 10px;
                 font-size: 12px;
                 font-family: "Trebuchet MS", Arial, sans-serif;
                 color: #777777;
-            }}
+            }
+            .red-row {
+                background-color: #ffcccc;
+            }
         </style>
     </head>
     <body>
@@ -55,9 +47,14 @@ def generate_fancy_html_table(array1, array2, array3, array4):
             <tbody>
     '''
 
+    today = datetime.now().date()
+
     for row1, row2, row3, row4 in zip(array1, array2, array3, array4):
+        deadline = datetime.strptime(row4, '%d-%b-%Y, %I:%M:%S %p').date()
+        row_class = 'red-row' if (deadline - today) < timedelta(days=7) else ''
+
         html += f'''
-                <tr>
+                <tr class="{row_class}">
                     <td>{row1}</td>
                     <td>{row2}</td>
                     <td>{row3}</td>
