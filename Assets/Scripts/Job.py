@@ -7,12 +7,6 @@ class Job:
         self.title = ""
         self.grade = ""
         self.deadline = "1970-01-01"
-    #def __init__(self, id, publish_date, title, grade, deadline):
-    #    self.id = id
-    #    self.publish_date = publish_date
-    #    self.title = title
-    #    self.grade = grade
-    #    self.deadline = deadline
 
     def __eq__(self, other):
         if isinstance(other, Job):
@@ -21,4 +15,3 @@ class Job:
                 self.title == other.title and
                 self.grade == other.grade
             )
-
