@@ -93,12 +93,13 @@ def generate_fancy_html_table(array1, array2, array3, array4):
             <label class="filter-label" for="filter-3">Deadline:</label>
             <select class="filter-select" id="filter-3" onchange="filterTable(3)">
                 <option value="">All</option>
-    '''
-    unique_deadlines = set(array4)
-    for deadline in unique_deadlines:
-        html += f'<option value="{deadline}">{deadline}</option>'
-
-    html += '''
+                <option value="<1">Less than 1 day</option>
+                <option value="<2">Less than 2 days</option>
+                <option value="<3">Less than 3 days</option>
+                <option value="<4">Less than 4 days</option>
+                <option value="<5">Less than 5 days</option>
+                <option value="<6">Less than 6 days</option>
+                <option value="<7">Less than 7 days</option>
             </select>
         </div>
 
