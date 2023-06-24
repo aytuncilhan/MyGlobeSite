@@ -28,18 +28,22 @@ div.esriPopupWrapper .zoomTo {
 
 #typedPane {
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 300px;
-  height: 100vh;
-  background-color: #000;
-  color: #fff;
-  padding: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  z-index: 1;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  left: 1%;
+  top: 30%;
+  background: rgba(255, 255, 255, 0);
+  z-index: 0;
+  border-radius: 2px;
+  width: 12%;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+   -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
+
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  transition: all .6s;
 }
 
 #typedPane:hover{
@@ -58,10 +62,14 @@ div.esriPopupWrapper .zoomTo {
 }
 
 /* Left pane styling */
-#typedPane h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
+#typedPane > h3{ 
+  position: relative;
+  text-align: left;
+  color: rgba(190, 190, 190);
+  right: 0px;
+  top: 2px;
+  font-size: larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Typed pane text styling */
@@ -74,17 +82,10 @@ div.esriPopupWrapper .zoomTo {
   padding: 0 0 0;
 }
 
-#typedPane p {
-  margin-bottom: 10px;
-}
-
-#typedPane a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-#typedPane a:hover {
-  color: #c0c0c0;
+#typedPane > p{ 
+  color: rgb(145, 145, 145);
+  font-size: medium;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #togglePane {
